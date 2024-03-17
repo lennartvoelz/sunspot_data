@@ -10,6 +10,7 @@ import sklearn as sk
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
+from sklearn.model_selection import TimeSeriesSplit
 
 #time series imports
 from scipy.fft import rfftfreq, rfft, irfft
